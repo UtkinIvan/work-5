@@ -1,0 +1,297 @@
+!SESSION 2021-12-11 17:34:38.926 -----------------------------------------------
+eclipse.buildId=2021.2.10.2
+java.version=11.0.12
+java.vendor=BellSoft
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Ваня\AppData\Local\1C\1cedtstart\projects\МебельДомТорг
+
+!ENTRY com.company1c.link.ide.edt 1 0 2021-12-11 17:34:52.368
+!MESSAGE iLOG: 1C:Link addon is initializing. Web config state is in C:\Users\Ваня\AppData\Local\1C\1cedtstart\projects\МебельДомТорг\.metadata\.plugins\com.company1c.link.ide.edt
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2021-12-11 17:34:58.802
+!MESSAGE java.vm.name=OpenJDK 64-Bit Server VM
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2021-12-11 17:34:58.805
+!MESSAGE java.vm.info=mixed mode
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2021-12-11 17:35:00.221
+!MESSAGE Trying to re-establish all non-closed SSH connecton...
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 2 0 2021-12-11 17:35:10.015
+!MESSAGE Error occured while searching web servers
+!STACK 0
+java.io.IOException: Cannot run program "wmic": CreateProcess error=2, Не удается найти указанный файл
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com._1c.g5.v8.dt.platform.services.core.webservers.ApacheWmicLookup.findApacheExcecutorLocations(ApacheWmicLookup.java:28)
+	at com._1c.g5.v8.dt.platform.services.core.webservers.AbstractWindowsApacheLookup.lookup(AbstractWindowsApacheLookup.java:40)
+	at com._1c.g5.v8.dt.internal.platform.services.core.webservers.WebServerManager.search(WebServerManager.java:273)
+	at com._1c.g5.v8.dt.internal.platform.services.core.webservers.WebServerManager.getWebServersResource(WebServerManager.java:199)
+	at com._1c.g5.v8.dt.internal.platform.services.core.webservers.WebServerManager.getAll(WebServerManager.java:166)
+	at com._1c.g5.v8.dt.internal.platform.services.core.webservers.WebServerManager.getAll(WebServerManager.java:159)
+	at com._1c.g5.v8.dt.internal.platform.services.core.webservers.WebServerManager.activate(WebServerManager.java:105)
+	at com._1c.g5.wiring.ManagedServicesSupport.activateManagedService(ManagedServicesSupport.java:40)
+	at com._1c.g5.internal.wiring.InjectorAwareManagedServiceRegistrationBuilder.prepareInstance(InjectorAwareManagedServiceRegistrationBuilder.java:61)
+	at com._1c.g5.internal.wiring.InjectorAwareManagedServiceRegistrationBuilder.prepareInstance(InjectorAwareManagedServiceRegistrationBuilder.java:1)
+	at com._1c.g5.internal.wiring.InjectorAwareServiceRegistrationBuilder.registerInjected(InjectorAwareServiceRegistrationBuilder.java:81)
+	at com._1c.g5.internal.wiring.InjectorAwareServiceRegistrationBuilder.registerInjected(InjectorAwareServiceRegistrationBuilder.java:63)
+	at com._1c.g5.v8.dt.internal.platform.services.core.PlatformServicesCore.lambda$4(PlatformServicesCore.java:344)
+	at com._1c.g5.internal.wiring.WiringPlugin$InitializationContext.lambda$0(WiringPlugin.java:279)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.IOException: CreateProcess error=2, Не удается найти указанный файл
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:487)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:154)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 19 more
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 2 0 2021-12-11 17:35:14.680
+!MESSAGE Не удалось прочитать конфигурационный файл "C:\ProgramData\Application Data\1C\1CEStart\1cestart.cfg". Информационные базы из данного конфигурационного файла будут проигнорированы.
+
+!ENTRY org.eclipse.ui.navigator.resources 4 0 2021-12-11 17:35:19.354
+!MESSAGE Required filter org.eclipse.ui.navigator.resources.filters.workingSet is not present. Working set support will not function correctly.
+
+!ENTRY org.eclipse.ui.navigator.resources 4 0 2021-12-11 17:35:19.356
+!MESSAGE 
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 2 0 2021-12-11 17:35:52.692
+!MESSAGE Не удалось прочитать конфигурационный файл "C:\ProgramData\Application Data\1C\1CEStart\1cestart.cfg". Информационные базы из данного конфигурационного файла будут проигнорированы.
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 2 0 2021-12-11 17:35:52.777
+!MESSAGE Не удалось прочитать конфигурационный файл "C:\ProgramData\Application Data\1C\1CEStart\1cestart.cfg". Информационные базы из данного конфигурационного файла будут проигнорированы.
+
+!ENTRY com._1c.g5.v8.dt.md.ui 1 0 2021-12-11 17:36:08.410
+!MESSAGE Создается новый проект кофигурации МебельДомТорг
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2021-12-11 17:36:08.602
+!MESSAGE Project context is being started: МебельДомТорг
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2021-12-11 17:36:12.731
+!MESSAGE Project context is started: МебельДомТорг
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2021-12-11 17:36:12.803
+!MESSAGE Project "МебельДомТорг" is connected to infobase "МебельДомТорг"
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2021-12-11 17:36:12.863
+!MESSAGE Synchronization data store is opened: C:\Users\Ваня\AppData\Local\1C\1cedtstart\projects\МебельДомТорг\.metadata\.plugins\org.eclipse.core.resources\.projects\МебельДомТорг\com._1c.g5.v8.dt.platform.services.core\.default\infobase-synchronization\afdb4d30-075e-4fe6-8b47-b7d973df97e4\SynchronizationData.store
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2021-12-11 17:36:16.874
+!MESSAGE Waiting for synchronization completed.
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2021-12-11 17:36:16.876
+!MESSAGE Infobase syncrhonization tracking BM model МебельДомТорг started
+
+!ENTRY com._1c.g5.v8.dt.ui 1 0 2021-12-11 19:25:18.471
+!MESSAGE EDT закрывается
+
+!ENTRY com._1c.g5.v8.dt.ui 1 0 2021-12-11 19:25:18.484
+!MESSAGE Существующий проект (на закрытии): МебельДомТорг, открыт: true
+
+!ENTRY org.eclipse.e4.ui.workbench.swt 1 0 2021-12-11 19:25:19.637
+!MESSAGE Saving dialog settings
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2021-12-11 19:25:19.997
+!MESSAGE Project context is being stopped: МебельДомТорг
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2021-12-11 19:25:20.287
+!MESSAGE Project "МебельДомТорг" is disconnected from infobase "МебельДомТорг"
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2021-12-11 19:25:20.293
+!MESSAGE Synchronization data store is closed: C:\Users\Ваня\AppData\Local\1C\1cedtstart\projects\МебельДомТорг\.metadata\.plugins\org.eclipse.core.resources\.projects\МебельДомТорг\com._1c.g5.v8.dt.platform.services.core\.default\infobase-synchronization\afdb4d30-075e-4fe6-8b47-b7d973df97e4\SynchronizationData.store
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2021-12-11 19:25:20.294
+!MESSAGE Infobase syncrhonization tracking BM model МебельДомТорг stopped
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2021-12-11 19:25:20.529
+!MESSAGE Project context is stopped: МебельДомТорг
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-12-11 19:26:20.714
+!MESSAGE Failed to evaluate: AndExpression [children=[WithExpression [variable=selection, children=[CountExpression [ size=1, mode: 4 EXACT], IterateExpression [type=AND, children=[<instanceof value="com.e1c.g5.dt.applications.infobases.IInfobaseApplication"/>]]]], <test property="wizardCategoryNotEmpty" value="com.e1c.g5.dt.applications.ui.wizard.relocateInfobaseApplication" plug-in activation: lazy/>]]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [com.e1c.g5.dt.applications.wizardCategoryNotEmpty, type=class java.util.Collections$EmptyList, tester=com.e1c.g5.dt.internal.applications.ui.expressions.WizardCategoryPropertyTester@20f1913b]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationService.invalidate(EvaluationService.java:248)
+	at org.eclipse.ui.internal.services.EvaluationService.dispose(EvaluationService.java:193)
+	at org.eclipse.ui.internal.services.ServiceLocator$3.run(ServiceLocator.java:182)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.services.ServiceLocator.disposeServices(ServiceLocator.java:179)
+	at org.eclipse.ui.internal.services.ServiceLocator.dispose(ServiceLocator.java:152)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2965)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1124)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1716)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1743)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1743)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1752)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:503)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:578)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1552)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4762)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+Caused by: com._1c.g5.wiring.ServiceUnavailableException: Service wait timed out after 60 000 milliseconds
+	at com._1c.g5.internal.wiring.ConfigurableImportDecorator$ConfigurableImport.get(ConfigurableImportDecorator.java:80)
+	at org.ops4j.peaberry.util.DelegatingImport.get(DelegatingImport.java:44)
+	at org.ops4j.peaberry.util.decorators.StickyDecorator$StickyImport.get(StickyDecorator.java:81)
+	at org.eclipse.ui.IWorkbench$pbryglu.getNewWizardRegistry(Unknown Source)
+	at com.e1c.g5.dt.internal.applications.ui.expressions.WizardCategoryPropertyTester.test(WizardCategoryPropertyTester.java:32)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 76 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-12-11 19:27:20.914
+!MESSAGE Failed to evaluate: AndExpression [children=[WithExpression [variable=selection, children=[CountExpression [ size=1, mode: 4 EXACT], IterateExpression [type=AND, children=[<instanceof value="com.e1c.g5.dt.applications.infobases.IInfobaseApplication"/>]]]], <test property="wizardCategoryNotEmpty" value="com.e1c.g5.dt.applications.ui.wizard.relocateInfobaseApplication" plug-in activation: lazy/>]]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [com.e1c.g5.dt.applications.wizardCategoryNotEmpty, type=class java.util.Collections$EmptyList, tester=com.e1c.g5.dt.internal.applications.ui.expressions.WizardCategoryPropertyTester@20f1913b]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationService.invalidate(EvaluationService.java:248)
+	at org.eclipse.ui.internal.services.EvaluationService.removeEvaluationListener(EvaluationService.java:255)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.dispose(HandlerProxy.java:269)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$1.run(LegacyHandlerService.java:258)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.clearActivations(LegacyHandlerService.java:254)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.dispose(LegacyHandlerService.java:275)
+	at org.eclipse.ui.internal.services.ServiceLocator$3.run(ServiceLocator.java:182)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.services.ServiceLocator.disposeServices(ServiceLocator.java:179)
+	at org.eclipse.ui.internal.services.ServiceLocator.dispose(ServiceLocator.java:152)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2965)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1124)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1716)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1743)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1743)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1752)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:503)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:578)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1552)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4762)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+Caused by: com._1c.g5.wiring.ServiceUnavailableException: Service wait timed out after 60 000 milliseconds
+	at com._1c.g5.internal.wiring.ConfigurableImportDecorator$ConfigurableImport.get(ConfigurableImportDecorator.java:80)
+	at org.ops4j.peaberry.util.DelegatingImport.get(DelegatingImport.java:44)
+	at org.ops4j.peaberry.util.decorators.StickyDecorator$StickyImport.get(StickyDecorator.java:81)
+	at org.eclipse.ui.IWorkbench$pbryglu.getNewWizardRegistry(Unknown Source)
+	at com.e1c.g5.dt.internal.applications.ui.expressions.WizardCategoryPropertyTester.test(WizardCategoryPropertyTester.java:32)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 81 more
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2021-12-11 19:27:22.000
+!MESSAGE All known SSH connectons released
